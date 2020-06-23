@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rinkdproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_drink"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_drink_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".cafeacticity.Starbucks.StarbucksActivity"
+            android:label="스타벅스" />
+        <activity
+            android:name=".cafeacticity.Yoger.YogerActivity"
+            android:label="요거프레소" />
+        <activity
+            android:name=".cafeacticity.Venti.VentiActivity"
+            android:label="더 벤티" />
+        <activity
+            android:name=".cafeacticity.Twosome.TwosomeActivity"
+            android:label="투썸플레이스" />
+        <activity
+            android:name=".cafeacticity.Tomntoms.TomtomActivity"
+            android:label="탐앤탐스" />
+        <activity
+            android:name=".cafeacticity.Selecto.SelectoActivity"
+            android:label="셀렉토" />
+        <activity
+            android:name=".cafeacticity.Pascucci.PascucciActivity"
+            android:label="파스쿠찌" />
+        <activity
+            android:name=".cafeacticity.Palgong.PalgongActivity"
+            android:label="팔공티" />
+        <activity
+            android:name=".cafeacticity.Juicy.JuicyActivity"
+            android:label="쥬씨" />
+        <activity
+            android:name=".cafeacticity.Jamba.JambaActivity"
+            android:label="잠바주스" />
+        <activity
+            android:name=".cafeacticity.Hollys.HollysActivity"
+            android:label="할리스" />
+        <activity
+            android:name=".cafeacticity.Hoicha.HoichaActivity"
+            android:label="호이차" />
+        <activity
+            android:name=".cafeacticity.Dalkom.DalkomActivity"
+            android:label="달콤커피" />
+        <activity
+            android:name=".cafeacticity.Compose.ComposeActivity"
+            android:label="컴포즈커피" />
+        <activity
+            android:name=".cafeacticity.Chayam.ChayamActivity"
+            android:label="차얌" />
+        <activity
+            android:name=".cafeacticity.Bback.BBackActivity"
+            android:label="빽다방" />
+        <activity
+            android:name=".cafeacticity.Angelinus.AngelinusActivity"
+            android:label="엔제리너스" />
+        <activity
+            android:name=".HBubble.BubbleActivity"
+            android:label="BUBBLE TEA" />
+        <activity
+            android:name=".Hjuice.HJuiceActivity"
+            android:label="JUICE" />
+        <activity
+            android:name=".Htea.Hmix.HMixActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".Htea.Hmilk.HMilkActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".Htea.Horiginal.HOriginalActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".Htea.Hfruit.HFruitteaActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".Hbeverage.Hsweetpotatolatte.HSweetpotatoActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hbeverage.Hsugar.HSugerActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hbeverage.Hgreentealatte.HGreenteaActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hbeverage.Hgrainlatte.HGrainActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hbeverage.Hfruitlatte.HFruitActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hbeverage.Hchocolatte.HChocoActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".Hcoffee.Hvanilalatte.HVanilaActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hespresso.HEspressoActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Heinspanner.HEinspanner"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hcaramelmacciato.HCaramelActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hcafuchino.HCafuchinoActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hcafemocha.HMochaActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hcafelatte.HCafelatteActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".Hcoffee.Hamericano.HAmeActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".bubble.BubbleteaActivity"
+            android:label="BUBBLE TEA" />
+        <activity
+            android:name=".adejuice.juice.JuiceActivity"
+            android:label="JUICE" />
+        <activity
+            android:name=".adejuice.spakling.SpaklingActivity"
+            android:label="ADE" />
+        <activity
+            android:name=".smoothie.frappe.FrappeActivity"
+            android:label="FRAPPE" />
+        <activity
+            android:name=".smoothie.shake.ShakeActivity"
+            android:label="SHAKE" />
+        <activity
+            android:name=".smoothie.smoothie.SmoothieActivity"
+            android:label="SMOOTHIE" />
+        <activity
+            android:name=".smoothie.fruitsmoothie.FruitsmoothieActivity"
+            android:label="SMOOTHIE" />
+        <activity
+            android:name=".tea.mixtea.MixteaActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".tea.milktea.MilkteaActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".tea.fruit.FruitteaActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".tea.originaltea.OriginalteaActivity"
+            android:label="TEA" />
+        <activity
+            android:name=".beverage.caramel.CaramelActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".beverage.sugar.SugarLatteActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".beverage.grain.GrainActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".beverage.fruit.FruitLatteActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".beverage.sweetpotato.SweetpotatoActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".beverage.greentea.GreenteaActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".coffee.decaffein.DecaffeinActicity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".beverage.choco.ChocolateLatteActivity"
+            android:label="BEVERAGE" />
+        <activity
+            android:name=".coffee.einspanner.EinspannerActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.afogatto.AfogatoActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.cafuchino.CafuchinoActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.cafemocha.MochaActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.vanilalatte.VanilaActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.caramelmachiato.CaramelActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".coffee.cafelatte.CafelatteActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".cafeacticity.Mega.MegaActivity"
+            android:label="메가커피" />
+        <activity
+            android:name=".cafeacticity.Ediya.EdiyaActivity"
+            android:label="이디야" />
+        <activity
+            android:name=".coffee.americano.AmericanoIceActivity"
+            android:label="COFFEE" />
+        <activity
+            android:name=".cafeacticity.Gongcha.GongchaActivity"
+            android:label="공차" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBD7zkiW6b4s4fAYAkOFyPXCX-EBULiHJY" />
+
+        <activity
+            android:name=".MapActivity"
+            android:label="위치 검색" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BottomActivity" />
+        <activity android:name=".DrinkSearch" />
+    </application>
+
+</manifest>
